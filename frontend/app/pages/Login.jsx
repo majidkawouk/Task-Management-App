@@ -7,7 +7,7 @@ export default function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
-  const router = useRouter(); // Use Next.js router
+  const router = useRouter();
   
   const handleLogin = async (e) => {
     e.preventDefault();
